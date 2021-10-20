@@ -1,0 +1,16 @@
+{
+    "name": "net.riccardostecca.pointeract",
+    "references": [
+        "Google.XR.Cardboard",
+        "Google.XR.Cardboard.Editor"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,18 @@
+{
+  "name": "net.riccardostecca.pointeract",
+  "displayName": "Pointeract",
+  "version": "1.0.0",
+  "unity": "2019.4",
+  "description": "Provides a directional, gaze style pointer in 3D with events and teleport capabilities, useful in VR, plus other tools related to the purpose. Google Cardboard SDK specific version.",
+  "keywords": [
+    "google",
+    "cardboard",
+    "vr",
+    "xr",
+    "reality"
+  ],
+  "dependencies": {
+    "com.google.xr.cardboard" : "https://github.com/googlevr/cardboard-xr-plugin.git"
+  },
+  "type": "tool"
+}
