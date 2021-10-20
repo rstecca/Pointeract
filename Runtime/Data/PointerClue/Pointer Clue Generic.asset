@@ -9,9 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a9225d92b9310994fa62b83b698c2529, type: 3}
+  m_Script: {fileID: 11500000, guid: 01b63064a8fff864891e18e60f1c4549, type: 3}
   m_Name: Pointer Clue Generic
   m_EditorClassIdentifier: 
-  mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
-  mat: {fileID: 2100000, guid: a40a1d157d682934cbddb171d0fb6d4e, type: 2}
-  clueScale: 0.03333333
+  mesh: {fileID: 0}
+  mat: {fileID: 0}
+  clueScale: 0.1
