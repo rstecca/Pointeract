@@ -14,5 +14,12 @@
   "dependencies": {
     "com.google.xr.cardboard" : "https://github.com/googlevr/cardboard-xr-plugin.git"
   },
-  "type": "tool"
+  "type": "tool",
+  "samples": [
+    {
+      "displayName": "Point, interact and teleport",
+      "description": "An example with all the basic functionalities: point at objects then tap or click to interact with them. If the pointed obejct is a TeleportAnchor then tapping or clicking will cause teleporting to the pointed object's position.'.",
+      "path": "Samples~/InteractAndTeleport"
+    }
+  ]
 }
