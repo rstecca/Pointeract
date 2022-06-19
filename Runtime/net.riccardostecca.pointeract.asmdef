@@ -2,7 +2,8 @@
     "name": "net.riccardostecca.pointeract",
     "references": [
         "Google.XR.Cardboard",
-        "Google.XR.Cardboard.Editor"
+        "Google.XR.Cardboard.Editor",
+        "Unity.InputSystem"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

@@ -12,7 +12,7 @@
     "reality"
   ],
   "dependencies": {
-    "com.google.xr.cardboard" : "https://github.com/googlevr/cardboard-xr-plugin.git"
+    "com.unity.inputsystem": "1.3.0"
   },
   "type": "tool",
   "samples": [
