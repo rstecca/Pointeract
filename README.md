@@ -12,7 +12,7 @@ This package must be installed via Unity Package Manager.
 
 - Open Package Manager
 - Click `+` to add a package.
-- If you intend to modify the package content (code, assembly definitions, prefabs, ...) clone the repo and choose "Add package from disk...", otherwise (recommended) choose "Add package from git url..." and paste the following: "git@bitbucket.org/rstecca/pointeract.git" or "https://rstecca@bitbucket.org/rstecca/pointeract.git"
+- If you intend to modify the package content (code, assembly definitions, prefabs, ...) clone the repo and choose "Add package from disk...", otherwise (recommended) choose "Add package from git url..." and paste the following: "git@github.com:rstecca/Pointeract.git" or "https://github.com/rstecca/Pointeract.git"
 
 ## How it works
 
