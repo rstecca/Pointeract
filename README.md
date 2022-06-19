@@ -43,7 +43,7 @@ The same goes for teleporting. You have the ready made, generic TeleportAnchor t
 
 ## Adapt to other SDKs
 
-The current version is meant to be used on the top of the new [Cardboard SDK](https://developers.google.com/cardboard/reference).
+The current version is meant to be used on the top of the new [Cardboard SDK](https://developers.google.com/cardboard/reference) [tested with com.google.xr.cardboard v1.8.0].
 The only things that make Pointeract specific to Cardboard SDK are:
 - A call in DirectionalPointer to get if the cardboard trigger was activated.
 - The assembly definitions file in the package folder which link against Google.XR.Cardboard and Google.XR.Cardboard.Editor.
