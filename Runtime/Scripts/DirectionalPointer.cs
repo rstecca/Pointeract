@@ -1,6 +1,5 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
+using UnityEngine.InputSystem;
 
 namespace Pointeract
 {
@@ -8,6 +7,7 @@ namespace Pointeract
     {
         [SerializeField, Tooltip("The object that teleports. Can be null if no teleport needed")] Teleporter teleporter;
         [SerializeField] PointerClue pointerClue;
+        [SerializeField] InputActionAsset inputActions;
 
         Collider currentlyPointed, previouslyPointed;
 
@@ -44,7 +44,9 @@ namespace Pointeract
                         pointable.OnPointerExit();
                     }
                 }
-                if (Google.XR.Cardboard.Api.IsTriggerPressed || Input.GetMouseButtonDown(0)) {
+                //if (Google.XR.Cardboard.Api.IsTriggerPressed || Input.GetMouseButtonDown(0)) {
+                if (inputActions.FindAction("Interact").triggered)
+                {
                     foreach (IInteractable interactable in currentlyPointed.GetComponents<IInteractable>()) {
                         interactable.OnInteract();
                     }
