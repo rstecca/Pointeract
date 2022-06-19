@@ -9,6 +9,8 @@ namespace Pointeract
         [SerializeField] PointerClue pointerClue;
         [SerializeField] InputActionAsset inputActions;
 
+        private InputAction interactInputAction;
+
         Collider currentlyPointed, previouslyPointed;
 
         ITeleportAnchor previousAnchor;
@@ -17,6 +19,7 @@ namespace Pointeract
         private void Awake()
         {
             iPointerClue = (IPointerClue)pointerClue;
+            interactInputAction = inputActions.FindAction("Interact");
         }
 
         void Start()
@@ -44,8 +47,7 @@ namespace Pointeract
                         pointable.OnPointerExit();
                     }
                 }
-                //if (Google.XR.Cardboard.Api.IsTriggerPressed || Input.GetMouseButtonDown(0)) {
-                if (inputActions.FindAction("Interact").triggered)
+                if (interactInputAction.triggered)
                 {
                     foreach (IInteractable interactable in currentlyPointed.GetComponents<IInteractable>()) {
                         interactable.OnInteract();

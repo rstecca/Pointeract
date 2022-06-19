@@ -51,7 +51,7 @@ public partial class @PointeractInputActions : IInputActionCollection2, IDisposa
                 },
                 {
                     ""name"": """",
-                    ""id"": ""71d92447-cb87-4cf5-a575-31f95668d71d"",
+                    ""id"": ""614ba9d4-eaf4-401d-ac5f-1ea6908f882f"",
                     ""path"": ""<Mouse>/press"",
                     ""interactions"": """",
                     ""processors"": """",
